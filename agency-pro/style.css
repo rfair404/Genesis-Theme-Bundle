@@ -5,12 +5,12 @@
 	Author: StudioPress
 	Author URI: http://www.studiopress.com/
 	Version: 3.1
- 
+
 	Tags: black, orange, white, one-column, two-columns, three-columns, responsive-layout, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, premise-landing-page
- 
-	Template: genesis
+
+	Template: Genesis-Theme-Bundle/genesis
 	Template Version: 2.1
- 
+
 	License: GPL-2.0+
 	License URI: http://www.opensource.org/licenses/gpl-license.php
 */
@@ -984,7 +984,7 @@ Site Header
 
 .site-header .widget-area li {
 	margin: 0;
-	padding: 0;   
+	padding: 0;
 }
 
 .site-header .search-form {
@@ -1905,7 +1905,7 @@ Media Queries
 	.content {
 		width: 620px;
 	}
-	
+
 	.site-header .widget-area {
 		width: 660px;
 	}
@@ -1922,11 +1922,11 @@ Media Queries
 	.sidebar-primary {
 		width: 300px;
 	}
-	
+
 	.home-middle .featuredpost .entry {
 		min-height: 320px;
 	}
-	
+
 	.home-bottom .featuredpost .entry {
 		min-height: 360px;
 	}
@@ -1956,7 +1956,7 @@ Media Queries
 	.title-area {
 		width: 100%;
 	}
-	
+
 	.site-container {
 		padding-top: 105px;
 	}
@@ -2003,34 +2003,34 @@ Media Queries
 	.footer-widgets-1 {
 		margin: 0;
 	}
-	
+
 	.home-bottom .featured-content .post:nth-of-type(3n+1),
 	.home-middle .featured-content .post:nth-of-type(3n+1) {
 	  clear: none;
 	}
-	
+
 	.home-bottom .featured-content .post:nth-of-type(2n+1),
 	.home-middle .featured-content .post:nth-of-type(2n+1) {
 	  clear: left;
 	}
-	
+
 	.agency-pro-home .featuredpost .entry {
 		min-height: 380px;
 		width: 50%;
 	}
-	
+
 	.genesis-nav-menu a {
 		padding: 10px 12px 12px;
 	}
-	
+
 	.genesis-nav-menu .sub-menu .sub-menu {
 		margin-top: -42px;
 	}
-	
+
 	.genesis-nav-menu .sub-menu a {
 		padding: 12px;
 	}
-	
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -2049,23 +2049,23 @@ Media Queries
 		margin: 0;
 		width: 100%;
 	}
-	
+
 	.agency-pro-home .wrap {
 		max-width: 640px;
 	}
-	
+
 	.home-middle .featuredpost .entry {
 		min-height: 320px;
 	}
-	
+
 	.entry-title {
 		font-size: 30px;
 	}
-	
+
 	.site-inner {
 		padding: 5%;
 	}
-	
+
 }
 
 @media only screen and (max-width:782px) {
@@ -2074,11 +2074,11 @@ Media Queries
         top: 46px;
         z-index: 499;
     }
-    
+
 }
 
 @media only screen and (max-width: 680px) {
-	
+
 	.header-full-width .site-container,
 	.site-container {
 		padding: 0;
@@ -2091,7 +2091,7 @@ Media Queries
 	.wrap {
 		width: 90%;
 	}
-	
+
 	.agency-pro-home .content .wrap {
 		max-width: 380px;
 	}
@@ -2100,33 +2100,33 @@ Media Queries
 		min-height: 380px;
 		width: 100%;
 	}
-	
+
 	.agency-pro-home .content .featured-content .entry-header {
 		clear: both;
 	}
-	
+
 	.home-top .widget-title {
 		font-size: 48px;
 	}
-	
+
 	.nav-secondary .genesis-nav-menu a {
 		font-size: 12px;
 	}
-	
+
 	.genesis-nav-menu.responsive-menu > .menu-item > .sub-menu,
 	.genesis-nav-menu.responsive-menu {
 		display: none;
 	}
-	
+
 	.genesis-nav-menu.responsive-menu .menu-item,
 	.responsive-menu-icon {
 		display: block;
 	}
-	
+
 	.genesis-nav-menu.responsive-menu .menu-item:hover {
 		position: static;
 	}
-	
+
 	.genesis-nav-menu.responsive-menu li a,
 	.genesis-nav-menu.responsive-menu li a:hover {
 		border: none;
@@ -2135,15 +2135,15 @@ Media Queries
 		padding: 18px 20px;
 		text-transform: none;
 	}
-	
+
 	.genesis-nav-menu.responsive-menu .menu-item-has-children {
-		cursor: pointer;	
+		cursor: pointer;
 	}
-	
+
 	.genesis-nav-menu.responsive-menu .menu-item-has-children > a {
 		margin-right: 60px;
 	}
-	
+
 	.genesis-nav-menu.responsive-menu > .menu-item-has-children:before {
 		content: "\f347";
 		float: right;
@@ -2154,11 +2154,11 @@ Media Queries
 		text-align: right;
 		z-index: 9999;
 	}
-	
+
 	.genesis-nav-menu.responsive-menu .menu-open.menu-item-has-children:before {
 		content: "\f343";
 	}
-	
+
 	.genesis-nav-menu.responsive-menu .sub-menu {
 		border: none;
 		left: auto;
@@ -2173,11 +2173,11 @@ Media Queries
 		width: 100%;
 		z-index: 99;
 	}
-	
+
 	.genesis-nav-menu.responsive-menu .sub-menu .sub-menu {
 		margin: 0;
 	}
-	
+
 	.genesis-nav-menu.responsive-menu .sub-menu li a,
 	.genesis-nav-menu.responsive-menu .sub-menu li a:hover {
 		padding: 12px 20px;
@@ -2185,7 +2185,7 @@ Media Queries
 		text-transform: none;
 		width: 100%;
 	}
-	
+
 	.genesis-nav-menu.responsive-menu .current-menu-item > a,
 	.genesis-nav-menu.responsive-menu .sub-menu a,
 	.genesis-nav-menu.responsive-menu .sub-menu a:hover,
@@ -2198,11 +2198,11 @@ Media Queries
 }
 
 @media only screen and (max-width: 480px) {
-	
+
 	.home-middle .featuredpost img.entry-image {
 		position: relative;
 	}
-	
+
 	.home-middle .featuredpost .entry img:hover {
 		  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 		  filter: alpha(opacity=90);
@@ -2210,7 +2210,7 @@ Media Queries
 		  -khtml-opacity: 0.9;
 		  opacity: 0.9;
 	}
-	
+
 	.header-image .site-title a {
 		background-size: contain !important;
 	}
