@@ -9,11 +9,11 @@
 
 	Tags: black, white, blue, green, orange, pink, one-column, two-columns, responsive-layout, custom-header, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, premise-landing-page
 
-	Template: genesis
+	Template: Genesis-Theme-Bundle/genesis
 	Template Version: 2.0
 
 	License: GPL-2.0+
-	License URI: http://www.opensource.org/licenses/gpl-license.php 
+	License URI: http://www.opensource.org/licenses/gpl-license.php
 */
 
 
@@ -1397,7 +1397,7 @@ p.entry-meta {
 
 /* Content Boxes
 --------------------------------------------- */
- 
+
 .content-box-blue,
 .content-box-gray,
 .content-box-green,
@@ -1408,32 +1408,32 @@ p.entry-meta {
 	overflow: hidden;
 	padding: 30px;
 }
- 
+
 .content-box-blue {
 	background-color: #d8ecf7;
 	border: 1px solid #afcde3;
 }
- 
+
 .content-box-gray {
 	background-color: #e2e2e2;
 	border: 1px solid #bdbdbd;
 }
- 
+
 .content-box-green {
 	background-color: #d9edc2;
 	border: 1px solid #b2ce96;
 }
- 
+
 .content-box-purple {
 	background-color: #e2e2f9;
 	border: 1px solid #bebde9;
 }
- 
+
 .content-box-red {
 	background-color: #f9dbdb;
 	border: 1px solid #e9b3b3;
 }
- 
+
 .content-box-yellow {
 	background-color: #fef5c4;
 	border: 1px solid #fadf98;
@@ -1931,7 +1931,7 @@ Media Queries
 	}
 
 	.genesis-nav-menu.responsive-menu .menu-item-has-children {
-		cursor: pointer;	
+		cursor: pointer;
 	}
 
 	.genesis-nav-menu.responsive-menu .menu-item-has-children > a {

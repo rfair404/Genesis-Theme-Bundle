@@ -1,17 +1,17 @@
 /*
 	Theme Name: Education Child Theme
 	Theme URI: http://www.studiopress.com/themes/education
-	Description: Education is a two or three column child theme created for the Genesis Framework. 
+	Description: Education is a two or three column child theme created for the Genesis Framework.
 	Author: StudioPress
 	Author URI: http://www.studiopress.com/
- 
+
 	Version: 2.0.1
- 
+
 	Tags: blue, gray, white, one-column, two-columns, three-columns, left-sidebar, right-sidebar, fixed-width, custom-background, custom-header, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments
- 
-	Template: genesis
+
+	Template: Genesis-Theme-Bundle/genesis
 	Template Version: 1.8.2
- 
+
 	License: GNU General Public License v2.0 (or later)
 	License URI: http://www.opensource.org/licenses/gpl-license.php
 */
@@ -2364,7 +2364,7 @@ div.gform_wrapper .gform_button {
 .education-red #sidebar-alt a {
 	color: #d1a3a3;
 	text-shadow: #2a0e0e -1px -1px;
-}	
+}
 
 .education-red #sidebar-alt .widget {
 	background: none;
@@ -2458,7 +2458,7 @@ div.gform_wrapper .gform_button {
 .education-teal #sidebar-alt a {
 	color: #b8dad9;
 	text-shadow: #397573 -1px -1px;
-}	
+}
 
 .education-teal #sidebar-alt .widget {
 	background: none;
@@ -2476,39 +2476,39 @@ div.gform_wrapper .gform_button {
 	#wrap {
 		min-width: 0;
 	}
-	
+
 	#header .wrap,
 	#inner .wrap,
 	#footer-widgets,
 	#footer .wrap {
 		max-width: 960px;
 	}
-	
+
 	#header .widget-area {
 		width: 560px;
 	}
-	
+
 	#content-sidebar-wrap {
 		width: 800px;
 	}
-	
+
 	#content {
 		margin: 30px;
 		width: 430px;
 	}
-	
+
 	.sidebar-content #content,
 	.content-sidebar #content {
 		width: 590px;
 	}
-	
+
 	.sidebar-content-sidebar .archive-page,
 	.content-sidebar-sidebar .archive-page,
 	.sidebar-sidebar-content .archive-page {
 		float: none;
 	}
-	
-	.full-width-content #content {		
+
+	.full-width-content #content {
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 		-moz-box-sizing: border-box;
@@ -2516,40 +2516,40 @@ div.gform_wrapper .gform_button {
 		padding: 30px;
 		width: 100%;
 	}
-	
+
 	#home-featured .call-to-action .widget {
 		padding-top: 15px;
 		text-align: center;
 	}
-	
+
 	#home-featured .call-to-action,
 	#home-featured .call-to-action p {
 		font-size: 32px;
 		line-height: 1.5 !important;
 	}
-	
+
 	#home-featured .call-to-action .enews,
 	#home-featured .call-to-action .enews p {
 		line-height: 1.5 !important;
 	}
-	
+
 	#home-featured .call-to-action .enews form {
 		display: block;
 	}
-	
+
 	#home-featured .call-to-action .widgettitle {
 		margin: 0;
 		padding: 0;
 	}
-	
+
 	#genesis-responsive-slider .slide-excerpt {
 		padding: 20px 20px 10px;
 	}
-	
+
 	#footer-widgets .wrap {
 		padding: 30px 30px 10px;
 	}
-	
+
 	.footer-widgets-1 {
 		margin: 0 30px 0 0;
 		width: 277px;
@@ -2566,15 +2566,15 @@ div.gform_wrapper .gform_button {
 }
 
 @media only screen and (max-width: 980px) {
-	
+
 	body {
 		width: 100%;
 		margin: 0 auto;
 	}
-	
+
 	.archive-page,
-	.header-image #title-area, 
-	.header-image #title, 
+	.header-image #title-area,
+	.header-image #title,
 	.header-image #title a,
 	#sidebar-alt,
 	.wrap,
@@ -2594,11 +2594,11 @@ div.gform_wrapper .gform_button {
 	#title-area {
 		width: 100%;
 	}
-	
+
 	#header .menu {
 		position: relative;
 	}
-	
+
 	#wrap {
 		-moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
 		-webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
@@ -2606,11 +2606,11 @@ div.gform_wrapper .gform_button {
 		margin: 0 auto;
 		width: 90%;
 	}
-	
+
 	#inner {
 		padding-bottom: 0;
-	}	
-	
+	}
+
 	#content,
 	.sidebar,
 	#footer-widgets,
@@ -2622,15 +2622,15 @@ div.gform_wrapper .gform_button {
 		padding: 30px;
 		width: 100% !important;
 	}
-	
+
 	.sidebar {
 		margin: 0 30px 30px;
 	}
-	
+
 	#sidebar-alt {
 		margin: 0 !important;
 	}
-	
+
 	#description,
 	#footer .creds,
 	#footer .gototop,
@@ -2640,51 +2640,51 @@ div.gform_wrapper .gform_button {
 		float: none;
 		text-align: center;
 	}
-	
+
 	#header {
 		height: auto !important;
 	}
-	
+
 	#header .widget-area {
 		float: none;
 	}
-	
+
 	#header .textwidget {
 		clear: both;
 		padding: 20px 0;
 		text-align: center;
 	}
-	
+
 	#header .menu {
 		left: 0;
 		right: auto;
 		width: 100%;
 	}
-	
+
 	#genesis-responsive-slider .slide-excerpt {
 		display: none;
 	}
-	
+
 	#home-featured .featured .widget {
 		width: 50%;
 	}
-	
+
 	#home-featured .call-to-action {
 		background: #f05f21;
 		height: auto;
 		margin: -20px 0 0 0;
 		padding: 0 0 20px;
 	}
-	
+
 	#home-featured .call-to-action .banner-left,
 	#home-featured .call-to-action .banner-right {
 		display: none;
 	}
-	
+
 	#footer-widgets {
 		margin: 0;
 	}
-	
+
 	.footer-widgets-1,
 	.footer-widgets-2,
 	.footer-widgets-3 {
@@ -2692,11 +2692,11 @@ div.gform_wrapper .gform_button {
 		margin: 0;
 		width: auto;
 	}
-	
+
 	#footer .gototop {
 		margin: 0 0 20px;
 	}
-	
+
 }
 
 @media only screen and (max-width: 420px) {
@@ -2716,85 +2716,85 @@ div.gform_wrapper .gform_button {
 	.breadcrumb {
 		display: none;
 	}
-	
+
 	#subbox {
 		margin: 10px 0 !important;
 	}
-	
+
 	#home-featured .featured .widget {
 		width: 100%;
 	}
-	
+
 	#home-featured .intro,
 	#home-featured .intro p {
 		font-size: 30px;
 		line-height: 1.2;
 	}
-	
+
 	#home-featured .inner {
 		padding: 30px;
 	}
-	
+
 	#sidebar-alt {
 		margin: 0 !important;
 	}
-	
+
 	#header .widget {
 		float: none;
 	}
-	
+
 	#header .widget-wrap {
 		padding: 10px;
 	}
-	
+
 	#header .menu {
 		float: none;
 		position: relative;
 		width: 100%;
 	}
-	
+
 	.menu-primary li,
 	.menu-secondary li,
 	#header .menu li {
 		float: none;
 	}
-	
+
 	.menu-primary a,
 	.menu-secondary a {
 		padding: 11px 15px;
 	}
-	
+
 	.sidebar {
 		margin: 0 20px 20px;
 	}
-	
+
 	h1 {
 		font-size: 38px;
 	}
-	
+
 	h2,
 	h2 a {
 		font-size: 28px;
 	}
-	
+
 	h3 {
 		font-size: 26px;
 	}
-	
+
 	h4 {
 		font-size: 20px;
 	}
-	
+
 	.post {
 		margin: 0 0 25px;
 		padding: 0 0 25px;
 	}
-	
+
 	.comment-list li,
 	.ping-list li {
 		padding: 15px;
 	}
-	
+
 	#author,
 	#comment,
 	#email,
@@ -2802,5 +2802,5 @@ div.gform_wrapper .gform_button {
 	#comment {
 		width: 90% !important;
 	}
-	
+
 }
