@@ -1,3 +1,6 @@
 [submodule "breakpoint"]
 	path = breakpoint
 	url = git@github.com:bradpotter/breakpoint.git
+[submodule "engage"]
+	path = engage
+	url = git@github.com:elioverbey/Engage.git
